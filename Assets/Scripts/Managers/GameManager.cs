@@ -94,7 +94,7 @@ public class GameManager : MonoBehaviour
         prevention_remaining = 0;
 
         // 난이도에 따라서 시작할 때 주는 돈을 설정함
-        if (difficult_manager.difficult == "easy") { money = 1000000; info_manager.difficult = "겁쟁이"; }
+        if (difficult_manager.difficult == "easy") { money = 0; info_manager.difficult = "겁쟁이"; }
         else if (difficult_manager.difficult == "normal") { money = 3333333; info_manager.difficult = "보통"; }
         else { money = 6666666; info_manager.difficult = "헉!"; }
     }
